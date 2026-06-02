@@ -24,6 +24,9 @@ public class Program2 {
 		departmentDao.update(department);
 		System.out.println("Upadate completed" + department);
 		
+		System.out.println("=== TEST 4: Department findById ====");
+		department = departmentDao.findById(1);
+		System.out.println(department);
 	}
 
 }
